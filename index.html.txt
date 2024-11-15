@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Exam Help</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="fadeInContent()">
+    <header>
+        <h1>Welcome to Exam Help</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="library.html">Resource Library</a>
+            <a href="tips.html">Study Tips</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+        </nav>
+    </header>
+    <main id="content">
+        <h2>Helping You Succeed in Exams</h2>
+        <p>Welcome to Exam Help! We offer resources, study tips, and motivational support to help you pass your exams.</p>
+        <button onclick="displayMessage()">Click for Motivation</button>
+        <p id="message" style="display:none; margin-top:10px;">You got this! Every effort counts towards success!</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Exam Help Website</p>
+    </footer>
+
+    <script>
+        function fadeInContent() {
+            document.getElementById("content").style.opacity = 0;
+            let opacity = 0;
+            const interval = setInterval(() => {
+                opacity += 0.05;
+                document.getElementById("content").style.opacity = opacity;
+                if (opacity >= 1) clearInterval(interval);
+            }, 50);
+        }
+
+        function displayMessage() {
+            document.getElementById("message").style.display = "block";
+        }
+    </script>
+</body>
+</html>

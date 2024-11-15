@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Help - Study Tips</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Exam Help - Study Tips</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="library.html">Resource Library</a>
+            <a href="tips.html">Study Tips</a>
+            <a href="login.html">Login</a>
+	    <a href="register.html">Register</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Study Tips and Exam Strategies</h2>
+        <p>Boost your study efficiency and stay motivated with these tips:</p>
+        <article>
+            <h3>Tip 1: Set Small, Achievable Goals</h3>
+            <p>Breaking down your study into smaller goals helps keep you on track without getting overwhelmed.</p>
+        </article>
+        <article>
+            <h3>Tip 2: Take Regular Breaks</h3>
+            <p>Frequent breaks improve focus and productivity. Try the Pomodoro technique: study for 25 minutes, then take a 5-minute break.</p>
+        </article>
+        <!-- Add more tips as needed -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Exam Help Website</p>
+    </footer>
+</body>
+</html>
